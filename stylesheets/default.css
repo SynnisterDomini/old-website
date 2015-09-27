@@ -38,7 +38,7 @@ section img {
 }
 
 .statement{
-	position: absolute;
+	position: relative;
 	margin-left: 125 px;
 }
 
