@@ -39,7 +39,8 @@ section img {
 
 .statement{
 	position: relative;
-	margin-left: 125 px;
+	width: 80%;
+	left: 125px;
 }
 
 img {
