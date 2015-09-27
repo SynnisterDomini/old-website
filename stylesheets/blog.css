@@ -1,0 +1,10 @@
+section{
+	float:left;
+	position: static;
+}
+
+.statement{
+	float: left;
+	margin-left:125px ;
+}
+
