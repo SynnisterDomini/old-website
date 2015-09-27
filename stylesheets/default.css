@@ -30,7 +30,7 @@ footer {
 }
 
 section img {
-	float: left;
+	position: relative;
 	margin-left: 125px;
 	margin-right: 25px;
 	height: 10em;
