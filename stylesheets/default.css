@@ -38,8 +38,8 @@ section img {
 }
 
 .statement{
-	background-color: yellow;
-	color: red;
+	position: absolute;
+	margin-left: 125 px;
 }
 
 img {
