@@ -1,0 +1,56 @@
+aside {
+	float: left;
+	position: absolute;
+	color: white;
+	height: 90%;
+	background-color: blue;
+	width: 100px;
+}
+
+header {
+	text-align: center;
+	margin-top: 0px;
+	float: top;
+	height: 10%;
+	position: relative;
+}
+
+html {
+	/*background-color: red;*/
+}
+
+footer {
+	text-align: center;
+	position: absolute;
+	background-color: pink;
+	height: 10%;
+	width: 100%;
+	bottom: 0px;
+	
+}
+
+section img {
+	float: left;
+	margin-left: 125px;
+	margin-right: 25px;
+	height: 10em;
+	width: 10em;
+}
+
+.statement{
+	background-color: yellow;
+	color: red;
+}
+
+img {
+	float: left;
+}
+
+
+
+aside a:link, aside a:visited{
+	text-decoration: none;
+	color: white;
+}
+
+
