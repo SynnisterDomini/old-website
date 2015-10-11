@@ -7,6 +7,12 @@ aside {
 	width: 100px;
 }
 
+.content {
+	position: relative;
+	float: left;
+	margin-left: 125px;
+}
+
 header {
 	text-align: center;
 	margin-top: 0px;
