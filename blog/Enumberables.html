@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Learning about Enumerables.</title>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css"/>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css"/>
+</head>
+
+<body>
+  <header>
+    <h1> Enumerables </h1>
+  </header>
+  <aside>
+    <a href = index.html> Back </a>
+  </aside>
+  <!--<hr> -->
+
+  <!-- <hr> -->
+  <section class = "statement"> 
+      <p>
+      Alright. Enumberables. What are they? They're basically methods that are so commonly used in that ruby developers simply decided to add them into array and hash classes. Each is one enumberable method that is commonly used, with the common modifier each_with_index. An example of using each is as follows:
+      </p>
+        <code>&gt; [1,2,3].each { |num| print "#{num}! " }
+        1! 2! 3! =&gt; [1,2,3]
+        </code>
+      <p>
+        Another commonly used enumberable is the select enumerable. The select enumberable, when used in an array, returns an array with all elements that meet your criteria. For instance, if I wanted to find all the even numbers in an array, I would use this:
+      </p>
+      <code>
+      &gt; my_array.select{|item| item%2==0 }
+=&gt; [2,4,6,8,100] </code>
+
+      <p>
+        There are a lot of enumerables included in the ruby package, and unfortunately, I haven't been able to go through them all. However, they're all very powerful and useful when used correctly, so do as I plan to and look through them all so you can master them and work smart, not hard!
+    </p>
+  </section>
+  <footer>
+    <p> Code examples courtesy of ErikTrautman, he's got an amazing explanation on enumerables. Check him out <a href = http://www.eriktrautman.com/posts/ruby-explained-map-select-and-other-enumerable-methods> here! </a></p>
+  </footer>
+<!--
