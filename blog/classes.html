@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Learning about Classes.</title>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css"/>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css"/>
+</head>
+
+<body>
+  <header>
+    <h1> Classes </h1>
+  </header>
+  <aside>
+    <a href = index.html> Back </a>
+  </aside>
+  <!--<hr> -->
+
+  <!-- <hr> -->
+  <section class = "statement"> 
+      <p>
+      	Woo! Taking a look at classes now. Classes are a way of bundling up a variety of methods in a variable, and they're an integral part of object oriented programming. The best way to understand objects and classes is to relate them to an everyday object and code in a manner that is easy to understand. The following is a code for a die.
+      </p>
+        <code>
+  <p>class Die</p>
+  <p>def initialize(number_of_sides)</p>
+  	<p>@faces = number_of_sides</p>
+    <p>if number_of_sides < 1</p>
+    	<p>raise ArgumentError.new("Must have sides greater than or equal to 1.")</p>
+    <p>end</p>
+  <p>end</p>
+
+  <p>def sides</p>
+   <p> return @faces</p>
+ <p> end</p>
+
+ <p> def roll</p>
+   <p> return 1 + rand(@faces)</p>
+ <p> end</p>
+<p>end</p>
+        </code>
+      <p>
+        Note that the die has an initialize method. The initialize method is how the original arguments are presented when creating a new object with that class. Creating a new object for a die would be as follows.
+      </p>
+      <code>
+      	20_sided_die = Die.new(20)
+       </code>
+
+      <p>
+        At this point, a new object has been created that's a die with 20 sides. If I call the roll method for that die using 
+    </p>
+    <code>
+      	20_sided_die.roll
+       </code>
+       <p>
+       	the code will then give me a random number between 1 and 20, just like when I roll an actual 20 sided die. This is just the beginning of what classes and objects are capable, of, but hopefully you're starting to see the potential!
+  </section>
+  <footer>
+    
+  </footer>
+<!--
