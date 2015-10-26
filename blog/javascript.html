@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Learning about Javascript.</title>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css"/>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css"/>
+</head>
+
+<body>
+  <header>
+    <h1> Javascript </h1>
+  </header>
+  <aside>
+    <a href = index.html> Back </a>
+  </aside>
+  <!--<hr> -->
+
+  <!-- <hr> -->
+  <section class = "statement"> 
+      <p>
+        Hey, Javascript! A language that I haven't used in a long time. After getting used to Ruby, Javascript seems counterintuitive and kind of a pain to use.
+      </p>
+      <p>
+        Javascript is interesting because it's a bit more of a basic language when compared to Ruby. That means that it has less methods built in (Ruby has a *huge* selection of enumerable methods built in that are super fun to play with), which means that more methods need to be written simply need to be defined within the code or pulled in from a library. For example, if you wanted to reverse a string in Ruby, you could simply type the following:
+      </p>
+      <code>
+        a = "I am a string"
+        a.reverse!
+        puts a => "gnirts a ma I" 
+      </code>
+      <p>
+        In Javascript, the same action would have to be created as a function, and then called, like so:
+      </p>
+      <code>
+        function reverse(string) {
+        return string.split("").reverse().join("");
+        }
+        console.log(reverse("I am a string"));
+        => "gnirts a ma I"
+      </code>
+      <p>
+        Because of this requirement, Javascript can be a bit less readable in Ruby, and comments become more important so that other people that read your code can follow your logic. You need to worry more about readability because sometimes the functions you make can feel alien to you later on when you call them and forget just how they work. However, I personally enjoy working with javascript because it forces me to thing about the logic of the functions that I am calling, which in turn allows me to troubleshoot more effectively when a function returns an error or something unexpected.
+      </p>
+  </section>
+  <footer>
+  </footer>
