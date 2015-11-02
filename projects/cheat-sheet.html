@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Personal Cheat Sheet [Loops]</title>
+	<link rel="stylesheet" type="text/css" href="../stylesheets/default.css"/>
+	<link rel="stylesheet" type="text/css" href="../stylesheets/cheat-sheet.css"/>
+</head>
+
+<body>
+	<header>
+		<h1> Loops! </h1>
+	</header>
+	<aside>
+		<a href = index.html> Back </a>
+	</aside>
+	<section>
+		<p>
+		Alright. Loops. Loops are always fun, given that they allow us to iterate through every portion of an array or object. I had the pleasure of learing about loops through python, but ruby betenumerables were super useful in shortcutting the process. In particular, .each and .map! were absolutely amazing.
+		</p>
+		<p>
+		Here's a ruby loop for reference:
+		</p>
+		<code>
+			<p>numbers = [1,2,3,4,5,6,7]</p>
+			<p>numbers.map! {|x| x*3}</p>
+			<p>p numbers => [3,6,9,12,15,18,21]</p>
+		</code>
+		<p>
+		In order to do the same thing in javascript, you need to input as follows:
+		</p>
+		<code>
+			<p>var numbers = [1,2,3,4,5,6,7];</p>
+			<p>for (var begin = 0; begin < numbers.length; begin++){</p>
+				<p>numbers[begin] = numbers[begin]*3;</p>
+			<p>}</p>
+			<p>console.log(numbers);</p>
+		</code>
+		<p> It seems counterintuitive, but the logic is sound. The loop works by creating a variable that counts through the array and performs the required action until 
+	</section>
