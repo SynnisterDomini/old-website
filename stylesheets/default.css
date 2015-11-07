@@ -1,36 +1,61 @@
-aside {
-	float: left;
-	position: absolute;
-	color: white;
-	height: 90%;
-	background-color: blue;
-	width: 100px;
+html {
+	background-image: url("../imgs/background-bricks.jpg");
 }
 
-
-.content {
+aside {
+	/*float: top;
 	position: relative;
-	float: left;
-	margin-left: 125px;
+	color: white;
+	background-color: blue;
+	width: 80%;*/
+	border: 1px solid black;
+	margin-bottom: 0%;
+	font-size: 1.3em;
+	background-color: black;
+	padding: 5px;
+	margin-left: 10%;
+	margin-right: -.5em;
+	margin-top: -.5em;
+	opacity: 0.8;
+	width: 80%;
+}
+
+.button {
+	display: inline;
+	padding: 5px;;
+	font-family: Verdana;
+}
+
+section {
+	position: relative;
+	float: top;
+	background-color: #EE8F60;
+	padding: 5px;
+	opacity: 0.95;
+	margin: 0px;
+	width: 80%;
+	margin-left: 10%;
+
 }
 
 header {
 	text-align: center;
 	margin-top: 0px;
 	float: top;
-	height: 10%;
+	height: 50px;
+	background-color: #EE8F60;
+	opacity: 0.95;
 	position: relative;
+	color: #919191;
 }
 
-html {
-	/*background-color: red;*/
-}
 
 footer {
 	text-align: center;
+	color: #D57FFF;
 	position: absolute;
-	background-color: pink;
-	height: 10%;
+	background-color: ;
+	height: 5%;
 	width: 100%;
 	bottom: 0px;
 	
@@ -44,17 +69,18 @@ section img {
 	width: 10em;
 }
 
-.statement{
+/*.statement{
 	position: relative;
-	width: 80%;
-	left: 125px;
-}
+
+}*/
 
 img {
 	float: left;
 }
 
-
+.highlight {
+	background-color: white;
+}
 
 aside a:link, aside a:visited{
 	text-decoration: none;

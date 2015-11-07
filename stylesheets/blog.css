@@ -1,7 +1,5 @@
-code p {
-	background-color: yellow;
-}
 
 code {
 	background-color: yellow;
+	width: 50px;
 }
