@@ -11,15 +11,15 @@
     <h1> Classes </h1>
   </header>
   <aside>
-    <p>
-    <a href = blog.html> Index </a>
-  </p>
-  <p>
-    <a href = Enumberables.html> Previous Post </a>
-  </p>
-  <p>
-    <a href = javascript.html> Next Post </a>
-  </p>
+   <!--  <p> -->
+    <a class = "button" href = blog.html> Index </a>
+  <!-- </p>
+  <p> -->
+    <a class = "button" href = Enumberables.html> Previous Post </a>
+  <!-- </p>
+  <p> -->
+    <a class = "button" href = javascript.html> Next Post </a>
+ <!--  </p> -->
   </aside>
   <!--<hr> -->
 
@@ -28,24 +28,23 @@
       <p>
       	Woo! Taking a look at classes now. Classes are a way of bundling up a variety of methods in a variable, and they're an integral part of object oriented programming. The best way to understand objects and classes is to relate them to an everyday object and code in a manner that is easy to understand. The following is a code for a die.
       </p>
-        <code>
-  <p>class Die</p>
-  <p>def initialize(number_of_sides)</p>
-  	<p>@faces = number_of_sides</p>
-    <p>if number_of_sides < 1</p>
-    	<p>raise ArgumentError.new("Must have sides greater than or equal to 1.")</p>
-    <p>end</p>
-  <p>end</p>
+        <pre><code>
+class Die
+  def initialize(number_of_sides)
+    @faces = number_of_sides
+    if number_of_sides < 1
+      raise ArgumentError.new("Must have sides greater than or equal to 1.")
+    end
+  end
 
-  <p>def sides</p>
-   <p> return @faces</p>
- <p> end</p>
+  def sides
+    return @faces
+  end
 
- <p> def roll</p>
-   <p> return 1 + rand(@faces)</p>
- <p> end</p>
-<p>end</p>
-        </code>
+  def roll
+    return 1 + rand(@faces)
+  end
+end</code></pre>
       <p>
         Note that the die has an initialize method. The initialize method is how the original arguments are presented when creating a new object with that class. Creating a new object for a die would be as follows.
       </p>
